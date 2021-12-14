@@ -5,9 +5,6 @@ import json
 from conf import model as MODEL
 
 
-# def pk(start=1): #рабочий
-#     pk_gen = (i for i in range(1, 100))
-#     return next(pk_gen)
 def book_gen(pk=1):
     while True:
         yield {
@@ -24,7 +21,6 @@ def book_gen(pk=1):
             }
         }
         pk += 1
-    return
 
 
 def title():
@@ -64,24 +60,6 @@ def author():
     return authors
 
 
-# def main(): #рабочий
-#
-#     return {
-#         "model": MODEL,
-#         "pk": pk(),
-#         "fields": {
-#             "title": title(),
-#             "year": year(),
-#             "pages": pages(),
-#             "isbn13": isbn(),
-#             "rating": rating(),
-#             "price": price(),
-#             "author": author()
-#
-#         }
-#     }
-
-
 def main():
     book_generator = book_gen()
     list_books = []
@@ -91,5 +69,5 @@ def main():
 
 
 if __name__ == "__main__":
-    print(json.dumps(main(), indent=4)) #рабочий
-#    print(main())
+    print(json.dumps(main(), indent=4))
+
