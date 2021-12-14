@@ -5,15 +5,32 @@ import json
 from conf import model as MODEL
 
 
-def pk():
-    pk_gen = (i for i in range(1, 100))
-    return next(pk_gen)
+# def pk(start=1): #рабочий
+#     pk_gen = (i for i in range(1, 100))
+#     return next(pk_gen)
+def book_gen(pk=1):
+    while True:
+        yield {
+            "model": MODEL,
+            "pk": pk,
+            "fields": {
+                "title": title(),
+                "year": year(),
+                "pages": pages(),
+                "isbn13": isbn(),
+                "rating": rating(),
+                "price": price(),
+                "author": author()
+            }
+        }
+        pk += 1
+        return
 
 
 def title():
     n = random.randint(1,5)
-    #with open('books.txt', 'r', encoding='utf-8') as books:
-    #books.readline(n)
+#    with open('books.txt', 'r', encoding='utf-8') as books:
+#    books.readline(n)
     return n
 
 
@@ -47,22 +64,32 @@ def author():
     return authors
 
 
-def main():
-    return {
-    "model": MODEL,
-    "pk": pk(),
-    "fields": {
-        "title": title(),
-        "year": year(),
-        "pages": pages(),
-        "isbn13": isbn(),
-        "rating": rating(),
-        "price": price(),
-        "author": author()
+# def main(): #рабочий
+#
+#     return {
+#         "model": MODEL,
+#         "pk": pk(),
+#         "fields": {
+#             "title": title(),
+#             "year": year(),
+#             "pages": pages(),
+#             "isbn13": isbn(),
+#             "rating": rating(),
+#             "price": price(),
+#             "author": author()
+#
+#         }
+#     }
 
-    }
-}
+
+def main():
+    book_generator = book_gen()
+    list_books = []
+    for _ in range(100):
+        list_books.append(next(book_generator))
+    return list_books
 
 
 if __name__ == "__main__":
-    print(json.dumps(main(), indent=4))
+#    print(json.dumps(main(), indent=4)) #рабочий
+    print(main())
