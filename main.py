@@ -25,7 +25,9 @@ def book_gen(pk=1):
 
 def title():
     with open('books.txt', 'r', encoding='utf-8',) as books:
-        return random.choice(books.readlines())
+        l_books = books.readlines()
+        l_books = [l_b.rstrip() for l_b in l_books]
+        return random.choice(l_books)
 
 
 def year():
@@ -55,18 +57,25 @@ def author():
     authors = []
     fake = Faker()
     for _ in range(i):
-        authors.append( fake.name())
+        authors.append(fake.name())
     return authors
 
 
-def main():
+def main(out_file: str):
     book_generator = book_gen()
     list_books = []
     for _ in range(100):
         list_books.append(next(book_generator))
-    return list_books
+    with open(out_file, 'w') as outp:
+        json.dump(list_books, outp, indent=4, ensure_ascii=False)
+#    return list_books
 
 
 if __name__ == "__main__":
-    print(json.dumps(main(), indent=4, ensure_ascii=False))
+    out_file = "Book_list.json"
+    main(out_file)
+    with open("Book_list.json") as bl:
+        for line in bl:
+            print(line, end='')
+#    print(json.dumps(main(), indent=4, ensure_ascii=False))
 
