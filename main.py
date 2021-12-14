@@ -24,10 +24,8 @@ def book_gen(pk=1):
 
 
 def title():
-    n = random.randint(1,5)
-#    with open('books.txt', 'r', encoding='utf-8') as books:
-#    books.readline(n)
-    return n
+    with open('books.txt', 'r', encoding='utf-8',) as books:
+        return random.choice(books.readlines())
 
 
 def year():
@@ -48,6 +46,7 @@ def rating():
 
 
 def price():
+
     return random.uniform(1, 999999)
 
 
@@ -69,5 +68,5 @@ def main():
 
 
 if __name__ == "__main__":
-    print(json.dumps(main(), indent=4))
+    print(json.dumps(main(), indent=4, ensure_ascii=False))
 
