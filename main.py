@@ -1,5 +1,6 @@
 from faker import Faker
 import random
+import json
 
 from conf import model as MODEL
 
@@ -12,7 +13,7 @@ def pk():
 def title():
     n = random.randint(1,5)
     #with open('books.txt', 'r', encoding='utf-8') as books:
-    #line = books.readline(n)
+    #books.readline(n)
     return n
 
 
@@ -64,4 +65,4 @@ def main():
 
 
 if __name__ == "__main__":
-    print(main())
+    print(json.dumps(main(), indent=4))
