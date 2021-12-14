@@ -24,7 +24,7 @@ def book_gen(pk=1):
             }
         }
         pk += 1
-        return
+    return
 
 
 def title():
@@ -91,5 +91,5 @@ def main():
 
 
 if __name__ == "__main__":
-#    print(json.dumps(main(), indent=4)) #рабочий
-    print(main())
+    print(json.dumps(main(), indent=4)) #рабочий
+#    print(main())
