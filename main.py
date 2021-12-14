@@ -61,7 +61,7 @@ def author():
     return authors
 
 
-def main(out_file: str):
+def main(output_file: str):
     book_generator = book_gen()
     list_books = []
     for _ in range(100):
@@ -78,4 +78,3 @@ if __name__ == "__main__":
         for line in bl:
             print(line, end='')
 #    print(json.dumps(main(), indent=4, ensure_ascii=False))
-
