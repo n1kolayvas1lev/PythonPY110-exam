@@ -1,0 +1,807 @@
+[
+    {
+        "model": "shop_final.book",
+        "pk": 1,
+        "fields": {
+            "title": "Больше книг",
+            "year": 1736,
+            "pages": 895072,
+            "isbn13": "1-03-896287-0",
+            "rating": 2,
+            "price": 292480.97718905687,
+            "author": [
+                "Melissa Townsend",
+                "Andrea Rios"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 2,
+        "fields": {
+            "title": "Больше книг",
+            "year": 1641,
+            "pages": 245919,
+            "isbn13": "0-9736137-4-2",
+            "rating": 1,
+            "price": 843066.821463912,
+            "author": [
+                "Linda Rodriguez",
+                "Jessica Lopez",
+                "Melissa Clark"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 3,
+        "fields": {
+            "title": "Больше книг",
+            "year": 1350,
+            "pages": 854046,
+            "isbn13": "0-949729-66-3",
+            "rating": 5,
+            "price": 741557.5786818026,
+            "author": [
+                "John Roman",
+                "Brian Nelson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 4,
+        "fields": {
+            "title": "Ещё больше книг для бога книг, черепов для трона черепов!",
+            "year": 2005,
+            "pages": 423307,
+            "isbn13": "0-413-20166-X",
+            "rating": 3,
+            "price": 560051.0640869102,
+            "author": [
+                "Kimberly Cunningham",
+                "John Schultz"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 5,
+        "fields": {
+            "title": "Ещё больше книг",
+            "year": 1963,
+            "pages": 379452,
+            "isbn13": "1-4575-8469-7",
+            "rating": 5,
+            "price": 701835.8779774704,
+            "author": [
+                "Sheena Everett",
+                "Sarah Meyer"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 6,
+        "fields": {
+            "title": "Книга",
+            "year": 1706,
+            "pages": 644904,
+            "isbn13": "0-360-40727-7",
+            "rating": 1,
+            "price": 835478.2731853054,
+            "author": [
+                "Victoria Hobbs",
+                "Taylor Dennis",
+                "Joseph Ellis"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 7,
+        "fields": {
+            "title": "Ещё больше книг для бога книг, черепов для трона черепов!",
+            "year": 994,
+            "pages": 227646,
+            "isbn13": "1-5198-4278-3",
+            "rating": 5,
+            "price": 388846.6694783134,
+            "author": [
+                "Debra Brown",
+                "Kimberly Young"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 8,
+        "fields": {
+            "title": "Книга",
+            "year": 1448,
+            "pages": 243567,
+            "isbn13": "1-70501-790-8",
+            "rating": 2,
+            "price": 56042.97609850227,
+            "author": [
+                "Stephen Porter"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 9,
+        "fields": {
+            "title": "Ещё книга",
+            "year": 1762,
+            "pages": 283899,
+            "isbn13": "0-583-27901-5",
+            "rating": 3,
+            "price": 424000.19867813407,
+            "author": [
+                "Janet Sherman"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 10,
+        "fields": {
+            "title": "Больше книг",
+            "year": 2001,
+            "pages": 23715,
+            "isbn13": "0-462-75832-X",
+            "rating": 5,
+            "price": 577333.929292856,
+            "author": [
+                "Dustin Patton",
+                "Katherine Cervantes"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 11,
+        "fields": {
+            "title": "Ещё книга",
+            "year": 1579,
+            "pages": 965035,
+            "isbn13": "0-06-295014-2",
+            "rating": 0,
+            "price": 763820.3275762998,
+            "author": [
+                "Deanna Gonzalez",
+                "Aaron Ferguson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 12,
+        "fields": {
+            "title": "Ещё книга",
+            "year": 998,
+            "pages": 133686,
+            "isbn13": "0-89601-241-7",
+            "rating": 4,
+            "price": 54789.96331061201,
+            "author": [
+                "Craig Boyd"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 13,
+        "fields": {
+            "title": "Больше книг",
+            "year": 1220,
+            "pages": 286982,
+            "isbn13": "1-997292-09-2",
+            "rating": 1,
+            "price": 811253.8384440319,
+            "author": [
+                "Dr. Rachel Rodriguez MD",
+                "Mary Gordon"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 14,
+        "fields": {
+            "title": "Больше книг",
+            "year": 1531,
+            "pages": 446677,
+            "isbn13": "1-249-96525-X",
+            "rating": 3,
+            "price": 738574.207748546,
+            "author": [
+                "Gregory Pena",
+                "Miranda Taylor"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 15,
+        "fields": {
+            "title": "Ещё больше книг для бога книг, черепов для трона черепов!",
+            "year": 993,
+            "pages": 691992,
+            "isbn13": "1-877672-96-3",
+            "rating": 0,
+            "price": 459714.2587069799,
+            "author": [
+                "Daniel Lynch",
+                "Wendy Payne",
+                "Cindy Johnson"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 16,
+        "fields": {
+            "title": "Ещё книга",
+            "year": 2018,
+            "pages": 11472,
+            "isbn13": "0-530-24142-0",
+            "rating": 4,
+            "price": 307085.4446940552,
+            "author": [
+                "Jessica Holland",
+                "Joanne Graham",
+                "Brandon Rodriguez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 17,
+        "fields": {
+            "title": "Книга",
+            "year": 2009,
+            "pages": 158523,
+            "isbn13": "0-593-02572-5",
+            "rating": 4,
+            "price": 424380.6224610725,
+            "author": [
+                "Kimberly Ramirez",
+                "Dustin Delacruz"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 18,
+        "fields": {
+            "title": "Ещё больше книг для бога книг, черепов для трона черепов!",
+            "year": 1526,
+            "pages": 827869,
+            "isbn13": "0-9929190-3-7",
+            "rating": 3,
+            "price": 171207.6593816821,
+            "author": [
+                "Sandra Huang",
+                "Joseph Owens",
+                "Cynthia Davis"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 19,
+        "fields": {
+            "title": "Книга",
+            "year": 1608,
+            "pages": 827421,
+            "isbn13": "0-06-800777-9",
+            "rating": 5,
+            "price": 735970.6107396125,
+            "author": [
+                "Christopher Walters",
+                "Keith Quinn"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 20,
+        "fields": {
+            "title": "Ещё больше книг",
+            "year": 950,
+            "pages": 275132,
+            "isbn13": "1-971089-64-8",
+            "rating": 4,
+            "price": 326325.1392298695,
+            "author": [
+                "Samantha Williams"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 21,
+        "fields": {
+            "title": "Ещё больше книг",
+            "year": 1515,
+            "pages": 83338,
+            "isbn13": "0-8395-6208-X",
+            "rating": 4,
+            "price": 924783.1900008689,
+            "author": [
+                "Raymond Williamson",
+                "Holly Schwartz",
+                "Benjamin Reid"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 22,
+        "fields": {
+            "title": "Ещё больше книг для бога книг, черепов для трона черепов!",
+            "year": 1145,
+            "pages": 854455,
+            "isbn13": "0-364-41065-5",
+            "rating": 0,
+            "price": 898915.7215918776,
+            "author": [
+                "Robert Johnson",
+                "Donna Reeves"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 23,
+        "fields": {
+            "title": "Ещё книга",
+            "year": 1498,
+            "pages": 588178,
+            "isbn13": "1-395-13656-4",
+            "rating": 0,
+            "price": 796648.8736131395,
+            "author": [
+                "Barbara Ayala",
+                "Marissa Bentley"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 24,
+        "fields": {
+            "title": "Ещё книга",
+            "year": 1427,
+            "pages": 508495,
+            "isbn13": "0-85973-557-5",
+            "rating": 2,
+            "price": 652846.1316767778,
+            "author": [
+                "Andrew Duncan",
+                "Doris Bennett"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 25,
+        "fields": {
+            "title": "Книга",
+            "year": 1130,
+            "pages": 968764,
+            "isbn13": "0-505-83947-4",
+            "rating": 5,
+            "price": 262872.9590077801,
+            "author": [
+                "Lisa Rodriguez DVM"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 26,
+        "fields": {
+            "title": "Больше книг",
+            "year": 1169,
+            "pages": 907872,
+            "isbn13": "1-903335-96-5",
+            "rating": 2,
+            "price": 403753.8020016587,
+            "author": [
+                "Dr. Stephen Brandt MD",
+                "Andre Clark"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 27,
+        "fields": {
+            "title": "Ещё больше книг",
+            "year": 1986,
+            "pages": 702873,
+            "isbn13": "0-592-54894-5",
+            "rating": 1,
+            "price": 129176.77436717506,
+            "author": [
+                "Scott Gibbs",
+                "Connie Hamilton",
+                "Cody Edwards"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 28,
+        "fields": {
+            "title": "Ещё больше книг для бога книг, черепов для трона черепов!",
+            "year": 1246,
+            "pages": 785202,
+            "isbn13": "1-257-61724-9",
+            "rating": 5,
+            "price": 212976.27260121724,
+            "author": [
+                "Joanna Caldwell",
+                "Kimberly Hamilton",
+                "Jeremy Martinez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 29,
+        "fields": {
+            "title": "Ещё больше книг для бога книг, черепов для трона черепов!",
+            "year": 1174,
+            "pages": 4172,
+            "isbn13": "1-900605-35-X",
+            "rating": 1,
+            "price": 129198.04498936441,
+            "author": [
+                "Tanya Wood",
+                "Vanessa Cohen",
+                "Cynthia Williams"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 30,
+        "fields": {
+            "title": "Книга",
+            "year": 1425,
+            "pages": 799457,
+            "isbn13": "0-15-666660-X",
+            "rating": 1,
+            "price": 123066.83690713604,
+            "author": [
+                "Sharon Chaney",
+                "Jeremy Conrad",
+                "Angel Hansen"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 31,
+        "fields": {
+            "title": "Ещё больше книг",
+            "year": 952,
+            "pages": 512553,
+            "isbn13": "1-939561-48-5",
+            "rating": 3,
+            "price": 610766.0198046388,
+            "author": [
+                "Melissa Ward",
+                "Brian Mccarty"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 32,
+        "fields": {
+            "title": "Ещё больше книг",
+            "year": 1920,
+            "pages": 947610,
+            "isbn13": "0-523-23003-6",
+            "rating": 4,
+            "price": 262025.01270103722,
+            "author": [
+                "Scott Haas"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 33,
+        "fields": {
+            "title": "Ещё больше книг для бога книг, черепов для трона черепов!",
+            "year": 1351,
+            "pages": 58281,
+            "isbn13": "0-328-58753-2",
+            "rating": 2,
+            "price": 128635.47614894109,
+            "author": [
+                "Ronald Johnson",
+                "Melanie Li"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 34,
+        "fields": {
+            "title": "Больше книг",
+            "year": 1379,
+            "pages": 648673,
+            "isbn13": "0-491-10314-X",
+            "rating": 2,
+            "price": 25531.290951076277,
+            "author": [
+                "Jonathan Peck"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 35,
+        "fields": {
+            "title": "Ещё книга",
+            "year": 2017,
+            "pages": 93979,
+            "isbn13": "1-342-20736-X",
+            "rating": 4,
+            "price": 976572.0061285489,
+            "author": [
+                "Nathan Simon"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 36,
+        "fields": {
+            "title": "Ещё книга",
+            "year": 1747,
+            "pages": 76921,
+            "isbn13": "1-343-13858-2",
+            "rating": 0,
+            "price": 205827.44014648272,
+            "author": [
+                "Brittany Poole",
+                "Christopher Adkins"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 37,
+        "fields": {
+            "title": "Книга",
+            "year": 1723,
+            "pages": 8307,
+            "isbn13": "1-4475-8174-1",
+            "rating": 5,
+            "price": 874557.6624213948,
+            "author": [
+                "Isaac Gonzalez",
+                "Trevor Santos"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 38,
+        "fields": {
+            "title": "Больше книг",
+            "year": 1907,
+            "pages": 228408,
+            "isbn13": "1-5083-9975-1",
+            "rating": 0,
+            "price": 590791.8043426292,
+            "author": [
+                "Teresa Wright",
+                "Nicholas White",
+                "Angela Salazar"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 39,
+        "fields": {
+            "title": "Ещё больше книг для бога книг, черепов для трона черепов!",
+            "year": 1796,
+            "pages": 868612,
+            "isbn13": "1-4478-4807-1",
+            "rating": 1,
+            "price": 586585.6300654537,
+            "author": [
+                "Eric Woods"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 40,
+        "fields": {
+            "title": "Ещё больше книг для бога книг, черепов для трона черепов!",
+            "year": 1633,
+            "pages": 570114,
+            "isbn13": "0-7072-8379-5",
+            "rating": 3,
+            "price": 402172.41500089195,
+            "author": [
+                "Joseph Juarez"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 41,
+        "fields": {
+            "title": "Ещё больше книг",
+            "year": 1479,
+            "pages": 958687,
+            "isbn13": "0-02-302777-0",
+            "rating": 5,
+            "price": 46189.92325478459,
+            "author": [
+                "Tiffany Harris",
+                "Cody Schwartz"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 42,
+        "fields": {
+            "title": "Книга",
+            "year": 1402,
+            "pages": 595692,
+            "isbn13": "0-89786-257-0",
+            "rating": 5,
+            "price": 87665.20550831682,
+            "author": [
+                "Sherri Davis",
+                "Nicholas Hawkins"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 43,
+        "fields": {
+            "title": "Ещё больше книг",
+            "year": 1893,
+            "pages": 961429,
+            "isbn13": "1-880426-02-1",
+            "rating": 1,
+            "price": 600194.4331482076,
+            "author": [
+                "Tamara Hamilton"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 44,
+        "fields": {
+            "title": "Больше книг",
+            "year": 1821,
+            "pages": 278380,
+            "isbn13": "1-204-81464-3",
+            "rating": 3,
+            "price": 952834.0003921385,
+            "author": [
+                "Samantha Marquez",
+                "Mrs. Tiffany Oliver DDS",
+                "Sonia Gonzales"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 45,
+        "fields": {
+            "title": "Ещё книга",
+            "year": 1295,
+            "pages": 159339,
+            "isbn13": "1-5101-9994-2",
+            "rating": 1,
+            "price": 958896.5265066089,
+            "author": [
+                "Andrea Foster",
+                "Chase Graham"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 46,
+        "fields": {
+            "title": "Ещё больше книг",
+            "year": 1560,
+            "pages": 592309,
+            "isbn13": "1-7349520-3-2",
+            "rating": 3,
+            "price": 599241.2484451389,
+            "author": [
+                "Thomas Page",
+                "Michael Miller",
+                "Lisa Ruiz"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 47,
+        "fields": {
+            "title": "Больше книг",
+            "year": 1100,
+            "pages": 528992,
+            "isbn13": "0-446-77303-4",
+            "rating": 1,
+            "price": 97390.23011894744,
+            "author": [
+                "Jacob Frye",
+                "Adrienne Hunt",
+                "Hailey Crawford"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 48,
+        "fields": {
+            "title": "Ещё больше книг для бога книг, черепов для трона черепов!",
+            "year": 1243,
+            "pages": 701093,
+            "isbn13": "1-354-25833-9",
+            "rating": 4,
+            "price": 489274.19233064255,
+            "author": [
+                "Tamara Gonzales",
+                "Autumn Osborne",
+                "Christy Roberts"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 49,
+        "fields": {
+            "title": "Ещё больше книг",
+            "year": 1270,
+            "pages": 174279,
+            "isbn13": "1-349-39912-4",
+            "rating": 1,
+            "price": 73437.28441470303,
+            "author": [
+                "Ryan Espinoza",
+                "Elizabeth Johnson",
+                "Alexander Nguyen"
+            ]
+        }
+    },
+    {
+        "model": "shop_final.book",
+        "pk": 50,
+        "fields": {
+            "title": "Ещё больше книг",
+            "year": 1519,
+            "pages": 638247,
+            "isbn13": "0-14-903384-2",
+            "rating": 1,
+            "price": 24128.827611830737,
+            "author": [
+                "Barbara Thompson",
+                "Candice Frederick"
+            ]
+        }
+    }
+]
